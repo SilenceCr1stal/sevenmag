@@ -48,12 +48,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- icon into browser -->
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo( 'template_url' ); ?>/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo( 'template_url' ); ?>/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo( 'template_url' ); ?>/favicon-16x16.png">
-    <link rel="mask-icon" href="<?php bloginfo( 'template_url' ); ?>/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo( 'template_url' ); ?>/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo( 'template_url' ); ?>/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo( 'template_url' ); ?>/assets/images/favicon-16x16.png">
+    <link rel="mask-icon" href="<?php bloginfo( 'template_url' ); ?>/assets/images/safari-pinned-tab.svg" color="#5bbad5">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <?php wp_head(); ?>
 </head>
 
@@ -1952,10 +1952,10 @@
                                             <form action="#" method="post" enctype="multipart/form-data">
                                                 <div class="login-form">
                                                     <div class="username">
-                                                        <input type="text" name="username" id="" placeholder="Username">
+                                                        <input type="text" name="username" id="username-input" placeholder="Username">
                                                     </div>
                                                     <div class="user-password">
-                                                        <input type="password" name="password" id=""
+                                                        <input type="password" name="password" id="password-input"
                                                             placeholder="password">
                                                     </div>
                                                 </div>
@@ -2461,7 +2461,6 @@
     <script>
         AOS.init();
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- <script defer src="../sevenmag/script.js"></script>
     <script src=../sevenmag/SmoothScroll.js"></script> -->
 

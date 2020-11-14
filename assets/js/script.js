@@ -11,11 +11,30 @@ $(document).ready(function() {
         $(this).find('input').prop('checked', true);
         return false;
     });
-    $('.header-burger').click(function(event) {
-        $(".header-burger, .navigation-block").toggleClass("active");
-        $("body").toggleClass("lock");
+    // $('.header-burger').click(function(event) {
+    //     $(".header-burger, .navigation-block").toggleClass("active");
+    //     $("body").toggleClass("lock");
+    // });
+});
+
+const radioButtons = document.querySelectorAll('.opinion-site-radio');
+radioButtons.forEach(el => {
+    console.log(el);
+    el.addEventListener('click', () => {
+        radioButtons.forEach(e => {
+            e.classList.remove('active');
+        });
+        el.classList.add('active');
     });
 });
+
+const burger = document.querySelector('.header-burger')
+.addEventListener('click', () => {
+    document.querySelector('.header-burger').classList.toggle('active');
+    document.querySelector('.navigation-block').classList.toggle('active');
+    document.body.classList.toggle('lock');
+});
+
 let asides = () => {
     if ($(window).width() <= '425') {
         $('.aside').addClass('margin-block');
@@ -34,8 +53,8 @@ let docMain = document.querySelector('main');
 // let parent = document.getElementsByClassName('tag')[6];
 // let oldChild = document.getElementsByClassName('span-inside-news')[8];
 // let oldChild = parent.children[0];
-let parent = document.getElementsByClassName('tag')[6];
-let oldChild = parent.children[0];
+// let parent = document.getElementsByClassName('tag')[6];
+// let oldChild = parent.children[0];
 let appChild = () => {
     let child = document.createElement('span');
     let text = document.createTextNode('Hello');
@@ -65,13 +84,13 @@ let scale = () => {
         }
     }, 1000);
 }
-picture.addEventListener('dblclick', scale, false); 
+// picture.addEventListener('dblclick', scale, false); 
 let block = document.getElementsByClassName('l-news')[0];
 
 let hide = () => {
     block.children[0].style.visibility = 'hidden';
 }
-block.addEventListener('click', hide, false);
+// block.addEventListener('click', hide, false);
 
 let nik = 'CRISTAL'
 let obj = 'user'
@@ -106,3 +125,41 @@ let [Nikitos, , Kirill] = countries();
 let age = 17, broAge = 27, mumAge = 48;
 [age, yourAge, fatherAge] = [broAge, , 50];
 console.log(age, broAge, fatherAge, yourAge);   
+
+function access(age) {
+    return new Promise((resolve, reject) => {
+        if (age < 18)
+            reject(Error("You cannot leave from Russia"));
+        setTimeout(() => {
+            resolve("Welcome aboard men");
+        }, 1000);
+    });
+}
+
+// access(19).then((result) => {
+//     console.log(result);
+//     return access(29);
+// }, (error) => {
+//     console.log(error);
+// }).then((result) => {
+//     console.log(result);
+// }, (error) => {
+//     console.log(error);
+// });
+// console.log("Start");
+
+let numbersAges = ['000017', '2dfdgg5', '28eqeqe', '47fffff', '14b'];
+const numbers = {
+    [Symbol.iterator] : function*() {
+        for (let num of numbersAges) {
+            yield `${num}`;
+        }
+    }
+};
+
+const allNums = [...numbers].map(num => parseInt(num, 10)).filter(num => num > 20)
+.reduce((num, addition) => num + addition, 0);
+console.log(allNums);
+
+
+console.log("2" * "4" === Number(16 / 2));
