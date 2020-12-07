@@ -13,7 +13,7 @@ add_action('wp_enqueue_scripts', 'register_styles');
         wp_register_script('script-style', get_template_directory_uri() .'/assets/js/script.js');
         wp_enqueue_script('script-style');
 
-        wp_register_script('SmoothScrolling', get_template_directory_uri() .'/SmoothScroll.js', array('script-style'), null, false);
+        wp_register_script('SmoothScrolling', get_template_directory_uri() .'/assets/js/SmoothScroll.js', array('script-style'), null, false);
         wp_enqueue_script('SmoothScrolling');
         
         function defer_parsing_of_js ( $url ) {

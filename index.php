@@ -48,10 +48,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- icon into browser -->
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo( 'template_url' ); ?>/assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo( 'template_url' ); ?>/assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo( 'template_url' ); ?>/assets/images/favicon-16x16.png">
-    <link rel="mask-icon" href="<?php bloginfo( 'template_url' ); ?>/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo( 'template_url' ); ?>/assets/images/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo( 'template_url' ); ?>/assets/images/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo( 'template_url' ); ?>/assets/images/assets/images/favicon-16x16.png">
+    <link rel="mask-icon" href="<?php bloginfo( 'template_url' ); ?>/assets/images/assets/images/safari-pinned-tab.svg" color="#5bbad5">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <?php wp_head(); ?>
@@ -150,8 +150,8 @@
                         <a href="https://yandex.ru" target="_blank" rel="noopener noreferrer" class="link">
                             <div class="social">
                                 <picture>
-                                    <source srcset="<?php bloginfo( 'template_url' ); ?>/search.webp" type="image/webp" class="search">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/search.png" alt="image" class="search">
+                                    <source srcset="<?php bloginfo( 'template_url' ); ?>/assets/images/search.webp" type="image/webp" class="search">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/search.png" alt="image" class="search">
                                 </picture>
                             </div>
                         </a>
@@ -159,21 +159,21 @@
                             rel="noopener noreferrer" target="_blank" class="link">
                             <div class="social">
                                 <picture>
-                                    <source srcset="<?php bloginfo( 'template_url' ); ?>/network.webp" type="image/webp" class="internet">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/network.png" alt="image" class="internet">
+                                    <source srcset="<?php bloginfo( 'template_url' ); ?>/assets/images/network.webp" type="image/webp" class="internet">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/network.png" alt="image" class="internet">
                                 </picture>
                             </div>
                         </a>
                         <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer" class="link">
                             <div class="social">
-                                <img src="<?php bloginfo( 'template_url' ); ?>/fb.jpg" alt="image" class="facebook">
+                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/fb.jpg" alt="image" class="facebook">
                             </div>
                         </a>
                         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="link">
                             <div class="social">
                                 <picture>
-                                    <source srcset="<?php bloginfo( 'template_url' ); ?>/twitter.webp" type="image/webp" class="twitter">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/twitter.png" alt="image" class="twitter">
+                                    <source srcset="<?php bloginfo( 'template_url' ); ?>/assets/images/twitter.webp" type="image/webp" class="twitter">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/twitter.png" alt="image" class="twitter">
                                 </picture>
                             </div>
                         </a>
@@ -187,10 +187,10 @@
                     <div class="block-info" data-aos="fade-down" data-aos-duration="1000">
                         <div class="image-block-info">
                             <picture>
-                                <source srcset="<?php bloginfo( 'template_url' ); ?>/1photo.webp" type="image/webp" class="photo">
-                                <img src="<?php bloginfo( 'template_url' ); ?>/1photo.jpg" alt="image" class="photo">
+                                <source srcset="<?php bloginfo( 'template_url' ); ?>/assets/images/1photo.webp" type="image/webp" class="photo">
+                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/1photo.jpg" alt="image" class="photo">
                             </picture>
-                            <!-- <img src="<?php bloginfo( 'template_url' ); ?>/1photo.jpg" alt="image" class="photo"> -->
+                            <!-- <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/1photo.jpg" alt="image" class="photo"> -->
                         </div>
                         <div class="info-block-info">
                             <div class="inside-info-block-info">
@@ -210,19 +210,19 @@
                                     <div class="pins-inside">
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png" alt="Here must was be the star"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png" alt="Here must was be the star"
                                                     class="pin-img pin-image" />
                                             </div>
                                         </div>
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                     alt="Here must was be the star" class="pin-img pin-image" />
                                             </div>
                                         </div>
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png" alt="Here must was be the star"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png" alt="Here must was be the star"
                                                     class="pin-img pin-image" id="message" />
                                             </div>
                                         </div>
@@ -234,10 +234,10 @@
                     <div class="block-info" data-aos="fade-down" data-aos-duration="1000">
                         <div class="image-block-info">
                             <picture>
-                                <source srcset="<?php bloginfo( 'template_url' ); ?>/2photo.webp" type="image/webp" class="photo">
-                                <img src="<?php bloginfo( 'template_url' ); ?>/2photo.jpg" alt="image" class="photo">
+                                <source srcset="<?php bloginfo( 'template_url' ); ?>/assets/images/2photo.webp" type="image/webp" class="photo">
+                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/2photo.jpg" alt="image" class="photo">
                             </picture>
-                            <!-- <img src="<?php bloginfo( 'template_url' ); ?>/2photo.jpg" alt="image" class="photo"> -->
+                            <!-- <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/2photo.jpg" alt="image" class="photo"> -->
                         </div>
                         <div class="info-block-info">
                             <div class="inside-info-block-info">
@@ -257,19 +257,19 @@
                                     <div class="pins-inside">
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png" alt="Here must was be the star"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png" alt="Here must was be the star"
                                                     class="pin-img pin-image" />
                                             </div>
                                         </div>
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                     alt="Here must was be the star" class="pin-img pin-image" />
                                             </div>
                                         </div>
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png" alt="Here must was be the star"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png" alt="Here must was be the star"
                                                     class="pin-img pin-image" />
                                             </div>
                                         </div>
@@ -281,10 +281,10 @@
                     <div class="block-info" data-aos="fade-down" data-aos-duration="1000">
                         <div class="image-block-info">
                             <picture>
-                                <source srcset="<?php bloginfo( 'template_url' ); ?>/3photo.webp" type="image/webp" class="photo">
-                                <img src="<?php bloginfo( 'template_url' ); ?>/3photo.jpg" alt="image" class="photo">
+                                <source srcset="<?php bloginfo( 'template_url' ); ?>/assets/images/3photo.webp" type="image/webp" class="photo">
+                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/3photo.jpg" alt="image" class="photo">
                             </picture>
-                            <!-- <img src="<?php bloginfo( 'template_url' ); ?>/3photo.jpg" alt="image" class="photo"> -->
+                            <!-- <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/3photo.jpg" alt="image" class="photo"> -->
                         </div>
                         <div class="info-block-info">
                             <div class="inside-info-block-info">
@@ -304,19 +304,19 @@
                                     <div class="pins-inside">
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png" alt="Here must was be the star"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png" alt="Here must was be the star"
                                                     class="pin-img pin-image" />
                                             </div>
                                         </div>
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                     alt="Here must was be the star" class="pin-img pin-image" />
                                             </div>
                                         </div>
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png" alt="Here must was be the star"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png" alt="Here must was be the star"
                                                     class="pin-img pin-image" />
                                             </div>
                                         </div>
@@ -328,11 +328,11 @@
                     <div class="block-info" data-aos="fade-down" data-aos-duration="1000">
                         <div class="image-block-info">
                             <picture>
-                                <source srcset="<?php bloginfo( 'template_url' ); ?>/4photo.webp" type="image/webp" class="photo">
-                                <img src="<?php bloginfo( 'template_url' ); ?>/4photo.jpg" alt="image" class="photo"
+                                <source srcset="<?php bloginfo( 'template_url' ); ?>/assets/images/4photo.webp" type="image/webp" class="photo">
+                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/4photo.jpg" alt="image" class="photo"
                                     style="object-position: top">
                             </picture>
-                            <!-- <img src="<?php bloginfo( 'template_url' ); ?>/4photo.jpg" alt="image" class="photo"> -->
+                            <!-- <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/4photo.jpg" alt="image" class="photo"> -->
                         </div>
                         <div class="info-block-info">
                             <div class="inside-info-block-info">
@@ -352,19 +352,19 @@
                                     <div class="pins-inside">
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png" alt="Here must was be the star"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png" alt="Here must was be the star"
                                                     class="pin-img pin-image" />
                                             </div>
                                         </div>
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                     alt="Here must was be the star" class="pin-img pin-image" />
                                             </div>
                                         </div>
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png" alt="Here must was be the star"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png" alt="Here must was be the star"
                                                     class="pin-img pin-image" />
                                             </div>
                                         </div>
@@ -376,10 +376,10 @@
                     <div class="block-info" data-aos="fade-down" data-aos-duration="1000">
                         <div class="image-block-info">
                             <picture>
-                                <source srcset="<?php bloginfo( 'template_url' ); ?>/5photo.webp" type="image/webp" class="photo">
-                                <img src="<?php bloginfo( 'template_url' ); ?>/5photo.jpg" alt="image" class="photo">
+                                <source srcset="<?php bloginfo( 'template_url' ); ?>/assets/images/5photo.webp" type="image/webp" class="photo">
+                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/5photo.jpg" alt="image" class="photo">
                             </picture>
-                            <!-- <img src="<?php bloginfo( 'template_url' ); ?>/5photo.jpg" alt="image" class="photo"> -->
+                            <!-- <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/5photo.jpg" alt="image" class="photo"> -->
                         </div>
                         <div class="info-block-info">
                             <div class="inside-info-block-info">
@@ -399,19 +399,19 @@
                                     <div class="pins-inside">
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png" alt="Here must was be the star"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png" alt="Here must was be the star"
                                                     class="pin-img pin-image" />
                                             </div>
                                         </div>
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                     alt="Here must was be the star" class="pin-img pin-image" />
                                             </div>
                                         </div>
                                         <div class="pin">
                                             <div class="pin-inside">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png" alt="Here must was be the star"
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png" alt="Here must was be the star"
                                                     class="pin-img pin-image" />
                                             </div>
                                         </div>
@@ -437,7 +437,7 @@
                                 </div>
                                 <div class="header-bar">
                                     <div class="header-bar-inside">
-                                        <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                        <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                     </div>
                                 </div>
                             </div>
@@ -483,21 +483,21 @@
                                                     <div class="pins-inside">
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
                                                         </div>
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
                                                         </div>
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
@@ -546,21 +546,21 @@
                                                     <div class="pins-inside">
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
                                                         </div>
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
                                                         </div>
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
@@ -611,21 +611,21 @@
                                                     <div class="pins-inside">
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
                                                         </div>
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
                                                         </div>
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
@@ -674,21 +674,21 @@
                                                     <div class="pins-inside">
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
                                                         </div>
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
                                                         </div>
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
@@ -712,7 +712,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -744,7 +744,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -753,7 +753,7 @@
                                         <div id="carousel-posts-main">
                                             <div class="carousel-post">
                                                 <div class="main-img" id="black-image">
-                                                    <img src="<?php bloginfo( 'template_url' ); ?>/ic_headset_mic_48px.svg"
+                                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/ic_headset_mic_48px.svg"
                                                         alt="there is must be image here" class="svg">
                                                 </div>
                                                 <div class="main-part">
@@ -844,7 +844,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -889,21 +889,21 @@
                                                         <div class="pins-inside">
                                                             <div class="pin">
                                                                 <div class="pin-inside">
-                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                         alt="Here must was be the star"
                                                                         class="pin-img pin-image" />
                                                                 </div>
                                                             </div>
                                                             <div class="pin">
                                                                 <div class="pin-inside">
-                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                         alt="Here must was be the star"
                                                                         class="pin-img pin-image" />
                                                                 </div>
                                                             </div>
                                                             <div class="pin">
                                                                 <div class="pin-inside">
-                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                         alt="Here must was be the star"
                                                                         class="pin-img pin-image" />
                                                                 </div>
@@ -930,21 +930,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img pin-image" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img pin-image" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img pin-image" />
                                                                         </div>
@@ -969,21 +969,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
@@ -1008,21 +1008,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
@@ -1047,21 +1047,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
@@ -1098,7 +1098,7 @@
                         <div id="followers-article" class="margin-block">
                             <div class="public fb">
                                 <div class="icon-public fb-inside">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/f.png" alt="There is facebook`s icon here" id="fb-image">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/f.png" alt="There is facebook`s icon here" id="fb-image">
                                 </div>
                                 <div class="amount-followers">
                                     <div class="amount followers-span">
@@ -1113,7 +1113,7 @@
                             </div>
                             <div class="public tw">
                                 <div class="icon-public tw-inside">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/twr.png" alt="There is twitter`s icon here" id="tw-image">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/twr.png" alt="There is twitter`s icon here" id="tw-image">
                                 </div>
                                 <div class="amount-followers">
                                     <div class="amount followers-span">
@@ -1128,7 +1128,7 @@
                             </div>
                             <div class="public rss">
                                 <div class="icon-public rss-inside">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/rsss.png" alt="There is RSS`s icon here" id="rss-image">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/rsss.png" alt="There is RSS`s icon here" id="rss-image">
                                 </div>
                                 <div class="amount-followers">
                                     <div class="amount followers-span">
@@ -1156,7 +1156,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -1179,21 +1179,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
@@ -1218,21 +1218,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
@@ -1257,21 +1257,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
@@ -1296,21 +1296,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
@@ -1336,7 +1336,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -1389,7 +1389,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -1415,21 +1415,21 @@
                                                     <div class="pins-inside">
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
                                                         </div>
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
                                                         </div>
                                                         <div class="pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-img pin-image" />
                                                             </div>
@@ -1452,7 +1452,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -1488,7 +1488,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -1524,7 +1524,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -1553,7 +1553,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -1598,21 +1598,21 @@
                                                         <div class="pins-inside">
                                                             <div class="pin">
                                                                 <div class="pin-inside">
-                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                         alt="Here must was be the star"
                                                                         class="pin-img pin-image" />
                                                                 </div>
                                                             </div>
                                                             <div class="pin">
                                                                 <div class="pin-inside">
-                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                         alt="Here must was be the star"
                                                                         class="pin-img pin-image" />
                                                                 </div>
                                                             </div>
                                                             <div class="pin">
                                                                 <div class="pin-inside">
-                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                         alt="Here must was be the star"
                                                                         class="pin-img pin-image" />
                                                                 </div>
@@ -1639,21 +1639,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img pin-image" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img pin-image" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img pin-image" />
                                                                         </div>
@@ -1678,21 +1678,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
@@ -1717,21 +1717,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
@@ -1756,21 +1756,21 @@
                                                                 <div class="pins-start">
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
                                                                     </div>
                                                                     <div class="pin-pin">
                                                                         <div class="pin-inside">
-                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/message_copy.png"
+                                                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/message_copy.png"
                                                                                 alt="Here must was be the star"
                                                                                 class="pin-img" />
                                                                         </div>
@@ -1789,7 +1789,7 @@
                         <div id="followers-aside" class="margin-block">
                             <div class="public fb">
                                 <div class="icon-public fb-inside">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/f.png" alt="There is facebook`s icon here" id="fb-image">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/f.png" alt="There is facebook`s icon here" id="fb-image">
                                 </div>
                                 <div class="amount-followers">
                                     <div class="amount followers-span">
@@ -1804,7 +1804,7 @@
                             </div>
                             <div class="public tw">
                                 <div class="icon-public tw-inside">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/twr.png" alt="There is twitter`s icon here" id="tw-image">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/twr.png" alt="There is twitter`s icon here" id="tw-image">
                                 </div>
                                 <div class="amount-followers">
                                     <div class="amount followers-span">
@@ -1819,7 +1819,7 @@
                             </div>
                             <div class="public rss">
                                 <div class="icon-public rss-inside">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/rsss.png" alt="There is RSS`s icon here" id="rss-image">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/rsss.png" alt="There is RSS`s icon here" id="rss-image">
                                 </div>
                                 <div class="amount-followers">
                                     <div class="amount followers-span">
@@ -1840,7 +1840,7 @@
                         <div id="followers">
                             <div class="public fb">
                                 <div class="icon-public fb-inside">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/f.png" alt="There is facebook`s icon here" id="fb-image">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/f.png" alt="There is facebook`s icon here" id="fb-image">
                                 </div>
                                 <div class="amount-followers">
                                     <div class="amount followers-span">
@@ -1855,7 +1855,7 @@
                             </div>
                             <div class="public tw">
                                 <div class="icon-public tw-inside">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/twr.png" alt="There is twitter`s icon here" id="tw-image">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/twr.png" alt="There is twitter`s icon here" id="tw-image">
                                 </div>
                                 <div class="amount-followers">
                                     <div class="amount followers-span">
@@ -1870,7 +1870,7 @@
                             </div>
                             <div class="public rss">
                                 <div class="icon-public rss-inside">
-                                    <img src="<?php bloginfo( 'template_url' ); ?>/rsss.png" alt="There is RSS`s icon here" id="rss-image">
+                                    <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/rsss.png" alt="There is RSS`s icon here" id="rss-image">
                                 </div>
                                 <div class="amount-followers">
                                     <div class="amount followers-span">
@@ -1942,7 +1942,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -1993,13 +1993,13 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
                                 <div id="Calendar" class="border-block inside-block-aside">
                                     <div class="calendar-inside">
-                                        <img src="<?php bloginfo( 'template_url' ); ?>/Calendar.png" alt="">
+                                        <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Calendar.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -2014,13 +2014,13 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
                                 <div id="social-feedback" class="border-block inside-block-aside">
                                     <div id="social-feedback-inside">
-                                        <img src="<?php bloginfo( 'template_url' ); ?>/Layer_1.png" alt="">
+                                        <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Layer_1.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -2035,7 +2035,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -2147,7 +2147,7 @@
                                     </div>
                                     <div class="header-bar">
                                         <div class="header-bar-inside">
-                                            <img src="<?php bloginfo( 'template_url' ); ?>/Rectangle_22.png" alt="" class="bar">
+                                            <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rectangle_22.png" alt="" class="bar">
                                         </div>
                                     </div>
                                 </div>
@@ -2223,42 +2223,42 @@
                                     <div class="box-networks">
                                         <div class="network">
                                             <a href="#">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/D.png" alt="" id="network1">
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/D.png" alt="" id="network1">
                                             </a>
                                         </div>
                                         <div class="network">
                                             <a href="#">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/G.png" alt="" id="network2">
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/G.png" alt="" id="network2">
                                             </a>
                                         </div>
                                         <div class="network">
                                             <a href="#">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/TW.png" alt="" id="network3">
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/TW.png" alt="" id="network3">
                                             </a>
                                         </div>
                                         <div class="network network-footer-link">
                                             <a href="#" class="network-footer-link" title="Facebook">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/Rounded_Rectangle_5.png" alt="" id="network4">
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/Rounded_Rectangle_5.png" alt="" id="network4">
                                             </a>
                                         </div>
                                         <div class="network">
                                             <a href="#">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/RSS.png" alt="" id="network5">
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/RSS.png" alt="" id="network5">
                                             </a>
                                         </div>
                                         <div class="network">
                                             <a href="#">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/gi.png" alt="" id="network6">
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/gi.png" alt="" id="network6">
                                             </a>
                                         </div>
                                         <div class="network">
                                             <a href="#">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/lin.png" alt="" id="network7">
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/lin.png" alt="" id="network7">
                                             </a>
                                         </div>
                                         <div class="network">
                                             <a href="#">
-                                                <img src="<?php bloginfo( 'template_url' ); ?>/pin.png" alt="" id="network8">
+                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/pin.png" alt="" id="network8">
                                             </a>
                                         </div>
                                     </div>
@@ -2290,21 +2290,21 @@
                                                     <div class="pins-start">
                                                         <div class="pin-pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/star.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/star.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-random" />
                                                             </div>
                                                         </div>
                                                         <div class="pin-pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-random" />
                                                             </div>
                                                         </div>
                                                         <div class="pin-pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-random" />
                                                             </div>
@@ -2329,14 +2329,14 @@
                                                     <div class="pins-start">
                                                         <div class="pin-pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/star.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/star.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-random" />
                                                             </div>
                                                         </div>
                                                         <div class="pin-pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-random" />
                                                             </div>
@@ -2361,21 +2361,21 @@
                                                     <div class="pins-start">
                                                         <div class="pin-pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/star.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/star.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-random" />
                                                             </div>
                                                         </div>
                                                         <div class="pin-pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/calendar_copy_2.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/calendar_copy_2.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-random" />
                                                             </div>
                                                         </div>
                                                         <div class="pin-pin">
                                                             <div class="pin-inside">
-                                                                <img src="<?php bloginfo( 'template_url' ); ?>/user_copy_4.png"
+                                                                <img src="<?php bloginfo( 'template_url' ); ?>/assets/images/user_copy_4.png"
                                                                     alt="Here must was be the star"
                                                                     class="pin-random" />
                                                             </div>
